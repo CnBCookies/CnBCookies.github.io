@@ -31,6 +31,10 @@ h6 {
   font-size: small;
 }
 
+.w-md-75 {
+  max-width: unset;
+}
+
 /*#region image_hover_effect*/
 .content {
   position: relative;
@@ -119,6 +123,9 @@ h6 {
   }
   .card-img-overlay h2 {
     font-size: large;
+  }
+  .w-md-75 {
+    max-width: 75%;
   }
 }
 
