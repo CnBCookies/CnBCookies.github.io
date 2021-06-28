@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- for navigation bar, using navbar nav-expand here as the parent with space-between class which denotes that the different values 
+      (residing in the two different children of the parent) has the maximum available space between them-->
+    <header class="navbar navbar-expand justify-content-between">
+      <nav class="navbar-nav nav-tabs" style="background-color: #ddf8e9">
+        <a class="nav-link" href="./about.html">Contact Us</a>
+      </nav>
+      <!-- nav-tabs creates the button-like effect -->
+      <nav class="navbar-nav nav-tabs" style="background-color: #ddf8e9">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="#products">Products</a>
+      </nav>
+    </header>
+
+    <!-- below is the website header -->
+
+    <div class="container-fluid">
+      <h1 class="display-1 text-center">CnB Cookies</h1>
+
+      <!-- below is the hero portion of the website. Has overlay image with text and a button -->
+      <div class="card">
+        <img src="./images/hero.jpg" class="card-img" />
+        <div class="card-img-overlay m-auto h-25 w-50" style="background-color: rgba(255, 255, 255, 0.7)">
+          <div class="text-center">
+            <h2 class="card-title">We deliver freshly baked happiness</h2>
+            <a href="#products" class="btn btn-dark mt-3">Explore Products</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <h2 class="display-4 text-center" id="products">Stuffed Cookies</h2>
+
+      <!-- card decks that will contain all the products -->
+      <div class="row row-cols-1 row-cols-md-2 g-4 w-75 m-auto">
+        <div class="col">
+          <div class="card p-4 brand-bg-color">
+            <img src="./images/nutella.jpg" class="card-img-top" alt="nutella lava cookies" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Nutella Lava Cookies</h5>
+              <p class="card-text">
+                If you love nutella, these ultimate gourmet-style nutella lava cookies are made especially for you. The
+                cookies are filled with delicious nutella stuffing, making them irresistible!
+              </p>
+              <p class="card-text">This is not your basic chocolate cookie; this is magic with a nutella swirl!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-4 brand-bg-color">
+            <img src="./images/triple chocolate.jpg" class="card-img-top" alt="triple chocolate brownie cookies" />
+            <div class="card-body">
+              <h5 class="card-title text-center">Triple Chocolate Brownie Cookies</h5>
+              <p class="card-text">
+                Chocoholis assemble! Unable to choose between cookies and brownies? Our triple chocolate brownie cookies
+                are here to solve your dilemna. Find the taste of delicious cholocate brownies in a cookie stuffed with
+                dark and white chocolate chips.
+              </p>
+              <p class="card-text">This cookie is the choco-heaven for all chocolate addicts!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card brand-bg-color my-3 w-75 m-auto">
+        <div class="row g-0 p-4">
+          <div class="col-md-6">
+            <img src="./images/red velvet.jpg" class="img-fluid rounded-start" alt="red velvet cookies" />
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title text-center">Red Velvet Cookies</h5>
+              <p class="card-text">
+                A delicious mix of chocolate and vanilla, our gooey red velvet cookies are sure to warm your heart. The
+                cookies are stuffed with luscious white chocolate in its lush, thick flavor which melts in your mouth
+                with just one bite.
+              </p>
+              <p class="card-text">
+                Our red velvet cookies are not just absolute delish, but they also look posh and gorgeous, which make
+                them perfect for gifting! Be it Valentine's Day, Christmas Day, or just another weekday, these are sure
+                to make for the perfect gift for a red velvet lover.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <!-- card decks that will contain all the promise -->
+      <h2 class="display-4 text-center">The CnB Promise</h2>
+
+      <!--hover effect-->
+      <div class="row row-cols-2 row-cols-md-4">
+        <div class="col my-3">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="./images/no eggs.png" alt="eggless cookies" />
+            <div class="content-details fadeIn-bottom">
+              <h5 class="content-title">100% Eggless</h5>
+              <p class="content-text">Our cookies are for everyone! Don't eat eggs? No problem! We've got your back.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="./images/no maida.png" alt="maida free cookies" />
+            <div class="content-details fadeIn-bottom">
+              <h5 class="content-title">Maida Free</h5>
+              <p class="content-text">
+                Enjoy unbleached, GMO-free, and low gluten content cookies made with soft milled wheat and whole lotta
+                love!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img
+              class="content-image"
+              src="./images/quality ingredients.jpg"
+              alt="cookies made with quality ingredients"
+            />
+            <div class="content-details fadeIn-bottom">
+              <h5 class="content-title">Quality Ingredients</h5>
+              <p class="content-text">
+                We use the finest Belgian couverture chocolate to satiate your tastebuds and also keep you healthy!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="./images/baked fresh on order.jpg" alt="cookies are baked fresh on order" />
+            <div class="content-details fadeIn-bottom">
+              <h5 class="content-title">Baked Fresh On Order</h5>
+              <p class="content-text">
+                Our cookies are homebaked as you order, ensuring they stay fresh and gooey when you have them!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <!-- below is the button that talks about the business -->
+      <div class="shadow-lg p-3 mb-5 rounded card w-75 m-auto mt-5">
+        <div class="card-body">
+          <div class="text-center">
+            <h3 class="card-title">About CnB Cookies</h3>
+            <p class="card-text pt-2">
+              CnB Cookies was born out of our passion and love for baking and having healthy, homemade, and fresh bakery
+              products.
+            </p>
+            <p class="card-text pt-2">
+              Can't control your cravings? Shoot us a text on WhatsApp and we'll be right there for ya!
+            </p>
+            <p>
+              <a href="https://api.whatsapp.com/send?phone=918220909700" target="_blank" class="link-success">
+                <i class="fab fa-whatsapp fs-1"></i
+              ></a>
+            </p>
+
+            Or follow us on our socials to know more!
+            <p class="fs-1">
+              <a href="https://www.facebook.com/CnBcookies-110353587543214/" target="_blank" class="link-primary">
+                <i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/cnbcookies.in" target="_blank" class="link-danger">
+                <i class="fab fa-instagram"></i
+              ></a>
+            </p>
+
+            <a class="btn btn-dark rounded-lg" href="./about.html">Reach Out</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <!-- below is the review carousel!-->
+      <h2 class="display-4 text-center">Customers Love Us</h2>
+
+      <div class="row row-cols-1 row-cols-md-3 justify-content-center">
+        <div id="carouselExampleControls" class="carousel slide my-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/customer reviews/1.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/customer reviews/2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/customer reviews/3.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/customer reviews/4.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="./images/customer reviews/5.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- below is a basic footer -->
+    <div class="container-fluid brand-bg-color pt-3">
+      <div class="row">
+        <div class="col">
+          <img src="./images/fssai logo.png" class="w-25" alt="FSSAI certified" />
+          <p>Stay connected with CnB Cookies</p>
+          <p>
+            Follow us on
+            <a href="https://www.facebook.com/CnBcookies-110353587543214/" target="_blank" class="link-primary">
+              <i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/cnbcookies.in" target="_blank" class="link-danger">
+              <i class="fab fa-instagram"></i
+            ></a>
+          </p>
+          <p>Made with love <i class="fas fa-heart"></i></p>
+        </div>
+        <div class="col">
+          <p>Check out our <a href="#products">Products</a></p>
+          <p><a href="#products">Nutella Lava Cookies</a></p>
+          <p><a href="#products">Triple Chocolate Brownie Cookies</a></p>
+          <p><a href="#products">Red Velvet Cookies</a></p>
+          <p>
+            DM to place your order with us
+            <a href="https://api.whatsapp.com/send?phone=918220909700" target="_blank" class="link-success">
+              <i class="fab fa-whatsapp"></i
+            ></a>
+          </p>
+        </div>
+        <div class="col">
+          <p>No. 16, Thamarai Salai,</p>
+          <p>Karur Bypass Road East Extn,</p>
+          <p>Annamalai Nagar, Trichy - 620018</p>
+          <p>+918220909700</p>
+          <p>@cnbcookies.in</p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
